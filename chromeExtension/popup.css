@@ -282,12 +282,16 @@ hr {
   background-color: rgb(41, 152, 177);
   transition: color 0.4s;
   transition: background-color 0.4s;
+  cursor: pointer;
 }
 .hourly-wage-btn:hover {
   color: rgb(41, 152, 177);
   background-color: whitesmoke;
 }
-
+.hourly-wage-btn:active {
+  background-color: lightsteelblue;
+  color :rgb(92, 201, 146);
+}
 .daily-hours {
   color: rgb(41, 152, 177);
   margin-bottom: 8px;
@@ -308,12 +312,16 @@ hr {
   background-color: rgb(41, 152, 177);
   transition: color 0.4s;
   transition: background-color 0.4s;
+  cursor: pointer;
 }
 .daily-hours-btn:hover {
   color: rgb(41, 152, 177);
   background-color: whitesmoke;
 }
-
+.daily-hours-btn:active {
+  background-color: lightsteelblue;
+  color :rgb(92, 201, 146);
+}
 .item-cost {
   color: rgb(41, 152, 177);
   margin-bottom: 8px;
@@ -334,8 +342,13 @@ hr {
   background-color: rgb(41, 152, 177);
   transition: color 0.4s;
   transition: background-color 0.4s;
+  cursor: pointer;
 }
 .item-cost-btn:hover {
   color: rgb(41, 152, 177);
   background-color: whitesmoke;
+}
+.item-cost-btn:active {
+  background-color: lightsteelblue;
+  color :rgb(92, 201, 146);
 }
